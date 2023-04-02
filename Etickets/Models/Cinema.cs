@@ -7,8 +7,11 @@ namespace Etickets.Models
     {
         [Key]
         public int Id { get; set; }
+        [Display(Name = "Cinema Logo")]
         public string logo { get; set; }
+        [Display(Name = "Cinema Name")]
         public string name { get; set; }
+        [Display(Name = "Description")]
         public string description { get; set; }
 
         //Relationships
